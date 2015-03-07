@@ -245,7 +245,7 @@ GM.Config.shipmentspawntime				= 10
 -- startinghealth - the health when you spawn.
 GM.Config.startinghealth				= 100
 -- startingmoney - your wallet when you join for the first time.
-GM.Config.startingmoney					= 500
+GM.Config.startingmoney					= 300000
 -- vehiclecost - Sets the cost of a vehicle (To own it).
 GM.Config.vehiclecost					= 40
 -- wallettaxmax - Maximum percentage of tax to be paid.
@@ -403,7 +403,7 @@ GM.Config.AFKDelay = 300
 Hitmenu module
 ---------------------------------------------------------------------------]]
 -- The minimum price for a hit
-GM.Config.minHitPrice = 200
+GM.Config.minHitPrice = 1500
 -- The minimum distance between a hitman and his customer when they make the deal
 GM.Config.minHitDistance = 150
 -- The text that tells the player he can press use on the hitman to request a hit
@@ -411,9 +411,9 @@ GM.Config.hudText = "I am a hitman.\nPress E on me to request a hit!"
 -- The text above a hitman when he's got a hit
 GM.Config.hitmanText = "Hit\naccepted!"
 -- The cooldown time for a hit target (so they aren't spam killed)
-GM.Config.hitTargetCooldown = 120
+GM.Config.hitTargetCooldown = 30
 -- How long a customer has to wait to be able to buy another hit (from the moment the hit is accepted)
-GM.Config.hitCustomerCooldown = 240
+GM.Config.hitCustomerCooldown = 30
 
 --[[---------------------------------------------------------------------------
 Hungermod module
